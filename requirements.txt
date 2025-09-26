@@ -13,13 +13,16 @@ imageio-ffmpeg>=0.5
 scikit-image>=0.22
 opencv-python>=4.10
 
-# (Optional) tabular utilities used by some plotting helpers
+# (Optional) tabular utilities used by some plotting/helpers
 pandas>=2.0
 
 # === PyTorch (CPU-only by default via PyPI). For CUDA, install via pytorch.org selector. ===
 torch==2.3.1
 torchvision==0.18.1
 torchaudio==2.3.1
+
+# Metrics
+torchmetrics>=1.4
 
 # If you plan to use TensorRT acceleration, install separately and only if compatible:
 # torch-tensorrt
