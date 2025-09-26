@@ -1,0 +1,8 @@
+Training Configuration Parameters
+========================================
+LEARNING_RATE: 0.0001
+BATCH_SIZE: 16
+NUM_WORKERS: 8
+L1_LAMBDA: 100
+L_ADV: 0.05
+NUM_EPOCHS: 200
