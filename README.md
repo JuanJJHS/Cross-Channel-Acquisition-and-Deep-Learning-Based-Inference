@@ -19,3 +19,4 @@ The framework trains per-target models (U-Net baselines and Pix2Pix cGANs) to ma
   1) Install the requirements.txt
   2) Run Preprocessing.py
   3) Run run_models.py
+  4) Run multioutput_model.py and inference_test.py to evaluate the inference time for the target fluorescence channels (e.g., MM/CC)
