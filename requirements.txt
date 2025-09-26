@@ -1,0 +1,25 @@
+# === Core scientific stack ===
+numpy>=1.26.4
+scipy>=1.11
+pillow>=10.0
+matplotlib>=3.8
+tqdm>=4.66
+
+# Image IO / GIFs
+imageio>=2.34
+imageio-ffmpeg>=0.5
+
+# Image processing
+scikit-image>=0.22
+opencv-python>=4.10
+
+# (Optional) tabular utilities used by some plotting helpers
+pandas>=2.0
+
+# === PyTorch (CPU-only by default via PyPI). For CUDA, install via pytorch.org selector. ===
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# If you plan to use TensorRT acceleration, install separately and only if compatible:
+# torch-tensorrt
