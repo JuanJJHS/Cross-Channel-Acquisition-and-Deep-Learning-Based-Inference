@@ -13,3 +13,9 @@ The framework trains per-target models (U-Net baselines and Pix2Pix cGANs) to ma
 - **Visualization-first**: utilities to crop subframes, build 3-panel/5-panel GIFs with 2-px separators, tint outputs, and overlay predictions vs. GT.
 
 ---
+
+## Workflow
+
+  1) Install the requirements.txt
+  2) Run Preprocessing.py
+  3) Run run_models.py
